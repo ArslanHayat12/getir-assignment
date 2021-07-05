@@ -63,10 +63,14 @@ A RESTful API that fetches the data from a MongoDB database collection .
 # Running the API localy 
 
 ```
-git init https://github.com/ArslanHayat12/getir-assignment.git
-git clone
-npm init
+git clone https://github.com/ArslanHayat12/getir-assignment.git
 npm run start
+
+
+Add some configuration in .env file like
+PORT 
+DB_URI
+DB_NAME
 ```
 The API will run on the localhost with port 3000
 
