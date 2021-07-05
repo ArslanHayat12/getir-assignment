@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import helmet from "helmet";
 import morgan from "morgan";
 import * as fs from "fs";
 import * as path from "path";
@@ -13,6 +14,10 @@ app.use(bodyParser.json());
 
 // Setup CORS
 app.use(cors());
+
+//Setup Helmet
+app.use(helmet());
+
 const __dirname = path.resolve();
 // Logger
 app.use(
