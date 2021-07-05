@@ -1,9 +1,5 @@
-# Getir_Assignment
+# Getir Assignment
 A RESTful API that fetches the data from a MongoDB database collection .
-
-* **Method:**
-  
-   `POST`
 
 * **Data Params**
 
@@ -37,7 +33,7 @@ A RESTful API that fetches the data from a MongoDB database collection .
       ```
       {
       "code": 1,
-      "msg": "Error while performing the database query to get the requested record or records",
+      "msg": "Error while performing fetching records",
       }
      ```
 
@@ -76,11 +72,13 @@ The API will run on the localhost with port 3000
 
 # Testing the API
 ```
-npm test
+npm run test
 ```
 
-# Author
-@ArslanHayat12
+# Linting
+```
+npm run lint
+```
 
 # Licence
 The MIT License (MIT)
